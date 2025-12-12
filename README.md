@@ -1,4 +1,5 @@
 # GPA: Long-memory task
+<img src="spaceCat.png">
 
 **Equipped with:**
 - WEB Search (DuckDuckGo MCP Server. Performs WEB search and content fetching)
@@ -99,3 +100,16 @@
 ---
 
 <img src="dialx-banner.png">
+
+# Results
+
+**If you’re working in WSL, don’t start your project from the `/mnt/c...` path, because it can cause read/write issues. Instead, clone the project into your HOME directory and run `docker compose` from there.**
+
+## Logs
+`docker compose down -v && docker compose up -d --build && docker compose logs -f`
+![alt text](image-1.png)
+
+## Chat
+`http://localhost:3000/`
+![alt text](image.png)
+
